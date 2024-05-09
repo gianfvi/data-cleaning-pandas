@@ -1,6 +1,6 @@
 # data-cleaning-pandas
 
-### Eduardo Da Silva, Radley Joseph, Dylan Sedeno, Maya Wilson-Fernandez, Gian F. Villafañe
+#### Eduardo Da Silva, Radley Joseph, Dylan Sedeno, Maya Wilson-Fernandez, Gian F. Villafañe
 
 ## Project Overview
   - The Python code is designed to focus primarily on data detailing global shark attacks and data based on NOAA's Marine Protected           Areas. 

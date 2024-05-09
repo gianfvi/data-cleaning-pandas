@@ -15,13 +15,29 @@
 - Hypothesis 2 - Unprovoked attacks are more prevalent in Marine Protected Areas.
 - Hypothesis 3 - Shark attacks are more prevalent in warmer seasons like spring and summer. 
 
-### Data Structuring - Example
-- This code is designed to add a new column called 'seasons' to the dataset, which categorizes each shark attack by the season it           occurred in, based on existing date data.
-- This process not only helps in structuring the data but also serves as a crucial step in cleaning and organizing the dataset
-
-### Data Filtering - Examples
-This code filters the DataFrame to include only the rows where the 'Type' column has values that are not equal to 'Provoked' in the first example, and 'Unprovoked' in the second example.
-This is done to isolate the data containing the unprovoked shark attacks in order to prove the hypothesis. 
+## Data Structuring 
+### Data Cleaning and Formatting:
+- Date Columns:
+  - Removes prefixes like "Before" from date strings.
+  - Replaces spaces with hyphens to standardize date formats.
+  - Extracts month and year from the date column using regex patterns.
+  - Month and Season Categorization:
+  - Maps abbreviated month names to full names.
+  - Applies a function to categorize months into corresponding seasons.
+- Data Refinement:
+  - Column Removal:
+    - Drops unnecessary columns to focus the dataset on relevant data.
+  - Null Value Management:
+    - Drops rows with excessive null values based on a threshold to clean up the dataset.
+  - Data Analysis Preparation:
+    - Filtering by Country:
+      - Isolates data specifically related to the USA for focused analysis.
+    - Attack Type Segmentation:
+      - Separates data into provoked and unprovoked attacks for detailed analysis.
+    - Aggregation and Grouping:
+      - Groups data by specific criteria (like country or season) to facilitate detailed analysis and understanding of patterns.
+    - Output Preparation:
+    - Adjusts settings to display all columns in the output, ensuring comprehensive visibility during analysis.
 
 ## Sources
 - NOAA. (n.d.). The MPA Inventory. The MPA Inventory | National Marine Protected Areas Center. https://marineprotectedareas.noaa.gov/dataanalysis/mpainventory/ 

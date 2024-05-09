@@ -2,7 +2,7 @@
 
 ### Eduardo Da Silva, Radley Joseph, Dylan Sedeno, Maya Wilson-Fernandez, Gian F. Villafañe
 
-### Project Overview
+## Project Overview
   - The Python code is designed to focus primarily on data detailing global shark attacks and data based on NOAA's Marine Protected           Areas. 
   - It involves several key steps like extensive cleaning and formatting and the extraction of specific components like month and year        from dates. 
   - It modifies the data by categorizing months into seasons and refines the dataset by focusing on US based attacks only, and then           separating the data into provoked and unprovoked attacks. This also performs detailed analysis by grouping data to understand            seasonal trends and demographic patterns related to shark attacks.
